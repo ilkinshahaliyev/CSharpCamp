@@ -10,6 +10,10 @@ namespace GenericsIntro
     {
         private T[] _array;
 
+        public int Count => _array.Length;
+
+        public T[] Items => _array;
+
         public MyList()
         {
             _array = new T[0];

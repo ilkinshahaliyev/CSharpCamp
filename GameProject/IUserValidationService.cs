@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPPart3
+namespace GameProject
 {
-    public interface ILoggerService
+    public interface IUserValidationService
     {
-        void Log();
+        bool Validate(Gamer gamer);
     }
 }
